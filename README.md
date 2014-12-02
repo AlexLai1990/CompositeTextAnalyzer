@@ -11,4 +11,6 @@ This Composite Text Analyzer contains three main operations:
 1. Fuzzy or exact texts searching 2. Metadata Query and searching 3. Metadata Generator.
 The purpose of this text analysis is to support management of large sets of document files. 
 It's can be reusable and extensible.
+
 The implementation is using C# and .Net 4.5.
+

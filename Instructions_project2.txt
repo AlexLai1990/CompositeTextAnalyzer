@@ -1,0 +1,55 @@
+I meet all requirements about project2.
+To run application work well, you'd better follow the instructions below.
+
+Instructions:
+=============================================================================================
+Requirements 3,(2),(5), bonus!   Text Search
+
+Format:
+*.txt ../../../Test_Folder "/Thaha" "/Tabc" /R /O /N3
+Execution use:
+Can Search Word files
+*.* ../../../Test_Folder "/Thaha" "/Tabc"  /R  /N3 
+*.* ../../../Test_Folder "/THaha" "/Tabc"  /N3 
+*.* ../../../Test_Folder "/Thaha" "/Tabc"  /O /N3 
+*.txt ../../../Test_Folder "/Thaha" "/Tabc"  /O /N3 
+
+Please Attach a tag "/N3" to specify this procedure
+You can only choose /A or /O to set exact search or fuzzy search, /A is default
+You can use /R tag to recursively search all files in that folder
+
+=============================================================================================
+Requirements 4,(2),(5)    Metadata extraction
+
+Format:
+*.* ../../../Test_Folder /MKeyWords /R /N4
+Execution use:
+Use *.* to get all textFile range
+*.* ../../../Test_Folder /MDescription,KeyWords /R /N4
+*.* ../../../Test_Folder /MDescription,KeyWords /N4
+*.* ../../../Test_Folder /MKeyWords /N4
+*.* ../../../Test_Folder /MKeyWords /R /N4
+
+Please Attach a tag "/N4" to specify this procedure
+You can use /Mtag1,tag2, Using "," as seperator
+You can use /R tag to recursively search all files in that folder
+
+=======================================================================================================
+Requirements 6    Metadata Generator tool
+
+Format:
+../../../Test_Folder/test_Metadata.txt /Ttest /Kwords_2 /Db.cpp /N6
+
+/T stands for Description
+/K stands for KeyWords
+/D stands for Dependency
+
+Execution use:
+You need to provide a fully qualified file name
+../../../Test_Folder/test_Metadata.txt /Ttest /Kwords_3 /Db.cpp /N6
+../../../Test_Folder/2.doc /Ttest  /Db.cpp /N6
+
+Please Attach a tag "/N6" to specify this procedure
+You need to specify the fully qualified file name, and Metadata File to be generated will be in the same folder
+of that file
+You can only use /Tvalue1 /Kvalue2 /Dvalue3 to add as metadata

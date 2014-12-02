@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- This is XML file for test_Metadata-->
+<File>
+  <Description>test</Description>
+  <KeyWords>This is for CS file Metadata </KeyWords>
+  <Dependency>b.cpp</Dependency>
+</File>
